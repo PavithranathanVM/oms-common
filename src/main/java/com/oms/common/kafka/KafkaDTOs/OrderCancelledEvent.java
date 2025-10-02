@@ -12,6 +12,7 @@ import java.util.UUID;
 @NoArgsConstructor
 public class OrderCancelledEvent {
 
+    //Added
     private UUID orderId;
     private UUID customerId;
     private String reason;
